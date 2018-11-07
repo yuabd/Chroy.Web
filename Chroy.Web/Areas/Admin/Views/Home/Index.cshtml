@@ -1,0 +1,73 @@
+﻿
+@{
+	Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<title>Index</title>
+	<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+	<script src="~/lib/vue/vue.min.js"></script>
+	<script src="~/lib/axios/axios.min.js"></script>
+</head>
+<body>
+	<div id="app">
+		<table v-if="billsList.length > 0" class="table-condensed" border="1">
+			<thead class="navbar-header">
+				<tr>
+					<th>编号</th>
+					<th>账户</th>
+					<th>科目</th>
+					<th>摘要</th>
+					<th>金额</th>
+					<th>备注</th>
+					<th></th>
+				</tr>
+				<tr v-for="(contact,index) in billsList">
+					<td><input type="text" v-model="contact.BillID" /></td>
+					<td><input type="text" v-model="contact.AccountName" /></td>
+					<td><input type="text" v-model="contact.CategoryName" /></td>
+					<td><input type="text" v-model="contact.Remark" /></td>
+					<td><input type="text" v-model="contact.Amount" /></td>
+					<td><input type="text" v-model="contact.Description" /></td>
+					<td>
+					</td>
+				</tr>
+			</thead>
+		</table>
+	</div>
+	<script>
+		var vm = new Vue({
+			el: "#app",
+			data: {
+				billsList: []
+			},
+			mounted() {
+				this.getAllBills();
+			},
+			methods: {
+				getAllBills: function () {
+					axios.get('@Url.Action("Get", "Bill")'
+                    ).then(
+                        (response) => {
+							this.billsList = [];
+                            for (var i = 0; i < response.data.length; i++) {
+								this.billsList.push(response.data[i]);
+                            }
+							
+                        },
+                        (response) => {
+                            alert(response.status);
+                        }
+                    ).catch(function (response) {
+                        alert(response);
+                    });
+				}
+			}
+		});
+	</script>
+</body>
+</html>

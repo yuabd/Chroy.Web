@@ -1,0 +1,14 @@
+C:\others\personal\chroy\web\Chroy.Web\Chroy.Web\bin\Debug\netcoreapp2.0\Chroy.Web.deps.json
+C:\others\personal\chroy\web\Chroy.Web\Chroy.Web\bin\Debug\netcoreapp2.0\Chroy.Web.runtimeconfig.json
+C:\others\personal\chroy\web\Chroy.Web\Chroy.Web\bin\Debug\netcoreapp2.0\Chroy.Web.runtimeconfig.dev.json
+C:\others\personal\chroy\web\Chroy.Web\Chroy.Web\bin\Debug\netcoreapp2.0\Chroy.Web.dll
+C:\others\personal\chroy\web\Chroy.Web\Chroy.Web\bin\Debug\netcoreapp2.0\Chroy.Web.pdb
+C:\others\personal\chroy\web\Chroy.Web\Chroy.Web\obj\Debug\netcoreapp2.0\Chroy.Web.csprojResolveAssemblyReference.cache
+C:\others\personal\chroy\web\Chroy.Web\Chroy.Web\obj\Debug\netcoreapp2.0\Chroy.Web.csproj.CoreCompileInputs.cache
+C:\others\personal\chroy\web\Chroy.Web\Chroy.Web\obj\Debug\netcoreapp2.0\Chroy.Web.AssemblyInfoInputs.cache
+C:\others\personal\chroy\web\Chroy.Web\Chroy.Web\obj\Debug\netcoreapp2.0\Chroy.Web.AssemblyInfo.cs
+C:\others\personal\chroy\web\Chroy.Web\Chroy.Web\obj\Debug\netcoreapp2.0\Chroy.Web.dll
+C:\others\personal\chroy\web\Chroy.Web\Chroy.Web\obj\Debug\netcoreapp2.0\Chroy.Web.pdb
+C:\others\personal\chroy\web\Chroy.Web\Chroy.Web\bin\Debug\netcoreapp2.0\ChRoy.Repository.dll
+C:\others\personal\chroy\web\Chroy.Web\Chroy.Web\bin\Debug\netcoreapp2.0\ChRoy.Repository.pdb
+C:\others\personal\chroy\web\Chroy.Web\Chroy.Web\obj\Debug\netcoreapp2.0\Chroy.Web.csproj.CopyComplete

@@ -1,0 +1,66 @@
+﻿
+@{
+	Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<title>Index</title>
+	<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+	<script src="~/lib/vue/vue.min.js"></script>
+	<script src="~/lib/axios/axios.min.js"></script>
+</head>
+<body>
+	<div id="app">
+		<button class="btn-default">添加</button>
+
+		<table v-if="categoryList.length > 0" class="table-condensed" border="1">
+			<thead class="navbar-header">
+				<tr>
+					<th>编号</th>
+					<th>科目名称</th>
+					<th></th>
+				</tr>
+				<tr v-for="(contact,index) in categoryList">
+					<td><input type="text" v-model="contact.CategoryID" /></td>
+					<td><input type="text" v-model="contact.CategoryName" /></td>
+					<td></td>
+				</tr>
+			</thead>
+		</table>
+	</div>
+	<script>
+		var vm = new Vue({
+			el: "#app",
+			data: {
+				categoryList: []
+			},
+			mounted() {
+				this.getAllCategory();
+			},
+			methods: {
+				getAllCategory: function () {
+					axios.get('@Url.Action("Get", "Category")'
+                    ).then(
+                        (response) => {
+							this.categoryList = [];
+                            for (var i = 0; i < response.data.length; i++) {
+								this.categoryList.push(response.data[i]);
+                            }
+
+                        },
+                        (response) => {
+                            alert(response.status);
+                        }
+                    ).catch(function (response) {
+                        alert(response);
+                    });
+				}
+			}
+		});
+	</script>
+</body>
+</html>

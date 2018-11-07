@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  chroy.web:
+    image: chroyweb
+    build:
+      context: .
+      dockerfile: Chroy.Web/Dockerfile

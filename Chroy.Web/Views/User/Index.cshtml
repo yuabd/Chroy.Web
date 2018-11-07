@@ -1,0 +1,22 @@
+﻿@model List<ChRoy.Repository.User>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+	<a href="/user/add">新增</a>
+	<ul>
+		@foreach (var item in Model)
+		{
+			<li>@item.UserName</li>
+		}
+	</ul>
+</body>
+</html>

@@ -1,0 +1,12 @@
+C:\others\personal\chroy\web\Chroy.Web\ChRoy.Service\obj\Release\netcoreapp2.0\ChRoy.Service.csprojResolveAssemblyReference.cache
+C:\others\personal\chroy\web\Chroy.Web\ChRoy.Service\obj\Release\netcoreapp2.0\ChRoy.Service.csproj.CoreCompileInputs.cache
+C:\others\personal\chroy\web\Chroy.Web\ChRoy.Service\obj\Release\netcoreapp2.0\ChRoy.Service.AssemblyInfoInputs.cache
+C:\others\personal\chroy\web\Chroy.Web\ChRoy.Service\obj\Release\netcoreapp2.0\ChRoy.Service.AssemblyInfo.cs
+C:\others\personal\chroy\web\Chroy.Web\ChRoy.Service\bin\Release\netcoreapp2.0\ChRoy.Service.deps.json
+C:\others\personal\chroy\web\Chroy.Web\ChRoy.Service\bin\Release\netcoreapp2.0\ChRoy.Service.dll
+C:\others\personal\chroy\web\Chroy.Web\ChRoy.Service\bin\Release\netcoreapp2.0\ChRoy.Service.pdb
+C:\others\personal\chroy\web\Chroy.Web\ChRoy.Service\bin\Release\netcoreapp2.0\ChRoy.Repository.dll
+C:\others\personal\chroy\web\Chroy.Web\ChRoy.Service\bin\Release\netcoreapp2.0\ChRoy.Repository.pdb
+C:\others\personal\chroy\web\Chroy.Web\ChRoy.Service\obj\Release\netcoreapp2.0\ChRoy.Service.csproj.CopyComplete
+C:\others\personal\chroy\web\Chroy.Web\ChRoy.Service\obj\Release\netcoreapp2.0\ChRoy.Service.dll
+C:\others\personal\chroy\web\Chroy.Web\ChRoy.Service\obj\Release\netcoreapp2.0\ChRoy.Service.pdb
